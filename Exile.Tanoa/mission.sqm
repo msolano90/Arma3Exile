@@ -1,0 +1,2187 @@
+version = 52;
+class EditorData
+{
+	moveGridStep = 1.0;
+	angleGridStep = 0.2617994;
+	scaleGridStep = 1.0;
+	autoGroupingDist = 10.0;
+	toggles = 1;
+	class ItemIDProvider
+	{
+		nextID = 116;
+	};
+	class MarkerIDProvider
+	{
+		nextID = 15;
+	};
+	class Camera
+	{
+		pos[] = {6659.5127,411.93668,5919.339};
+		dir[] = {-0.02530832,-0.76106095,0.64826554};
+		up[] = {-0.029688863,0.6486722,0.76047516};
+		aside[] = {0.9992851,-4.8790753e-008,0.039012156};
+	};
+};
+addons[] = {"exile_client","A3_Ui_F"};
+class AddonsMetaData
+{
+	class List
+	{
+		items = 2;
+		class Item0
+		{
+			className = "exile_client";
+			name = "exile_client";
+		};
+		class Item1
+		{
+			className = "A3_Ui_F";
+			name = "Arma 3 - User Interface";
+			author = "Bohemia Interactive";
+			url = "http://www.arma3.com";
+		};
+	};
+};
+randomSeed = 2218544;
+class ScenarioData
+{
+	author = "Exile Mod";
+};
+
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0.3;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather=0.30000001;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		year = 2039;
+		month = 6;
+		day = 24;
+		hour = 12;
+		minute = 0;
+		startFogBase = 5.0;
+		forecastFogBase = 5.0;
+		startFogDecay = 0.014;
+		forecastFogDecay = 0.014;
+	};
+	class Entities
+	{
+		items = 58;
+
+		class Item0
+		{
+			dataType = "Group";
+			side = "Independent";
+			class Entities
+			{
+				items = 100;
+				class Item0
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6709.972,3.531064,6098.1816};
+					};
+					side = "Independent";
+					flags = 7;
+					class Attributes
+					{
+						isPlayer = 1;
+					};
+					id = 1;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item1
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6715.4106,3.3922372,6098.1035};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 2;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item2
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6719.6055,3.4349802,6097.948};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 3;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item3
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6723.723,3.422645,6097.948};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 4;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item4
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6727.7627,3.6749485,6098.1035};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 5;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item5
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6731.725,3.7201705,6098.1816};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 6;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item6
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6735.5313,3.7071872,6098.1816};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 7;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item7
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6735.454,3.7017417,6095.54};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 8;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item8
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6731.8804,3.7197568,6095.54};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 9;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item9
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6727.6074,3.6728733,6095.773};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 10;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item10
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6723.49,3.523696,6095.773};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 11;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item11
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6719.6055,3.5784287,6095.8516};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 12;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = 2.3841858e-007;
+				};
+				class Item12
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6715.1772,3.5535653,6095.773};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 13;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item13
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6709.817,3.6209357,6095.54};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 14;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item14
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6709.5835,3.8316061,6092.588};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 15;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item15
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6715.1772,3.7679167,6092.8213};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 16;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = -4.7683716e-007;
+				};
+				class Item16
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6719.6055,3.8106358,6092.9756};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 17;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item17
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6723.568,3.7655332,6092.588};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 18;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item18
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6727.7627,3.7048593,6092.8213};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 19;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item19
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6731.8027,3.6831174,6092.51};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 20;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item20
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6735.3765,3.6345065,6092.044};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 21;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item21
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6709.3506,4.043117,6090.0244};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 22;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item22
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6715.255,4.054649,6090.1787};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 23;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item23
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6719.45,4.07037,6090.3345};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 24;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item24
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6723.568,4.036174,6090.0244};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 25;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item25
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6727.53,3.8530452,6090.1787};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 26;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item26
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6731.5693,3.6259701,6090.0244};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 27;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item27
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6735.221,3.5528815,6089.713};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 28;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item28
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6709.273,4.2203193,6087.072};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 29;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item29
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6715.3325,4.2280865,6087.383};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 30;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item30
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6719.3726,4.2361555,6087.461};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 31;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item31
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6723.801,4.179105,6087.227};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 32;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item32
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6727.7627,3.9470174,6087.616};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 33;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item33
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6731.8804,3.6687315,6087.227};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 34;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item34
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6735.454,3.4354198,6087.5376};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 35;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item35
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6733.59,3.7151988,6098.1816};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 36;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item36
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6733.667,3.7149925,6095.54};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 37;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = 2.3841858e-007;
+				};
+				class Item37
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6733.59,3.662434,6092.2773};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 38;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = 2.3841858e-007;
+				};
+				class Item38
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6733.3564,3.590914,6089.7905};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 39;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item39
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6733.8228,3.4741623,6087.461};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 40;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item40
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6729.628,3.8210554,6087.5376};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 41;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item41
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6729.7827,3.7187557,6090.102};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 42;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item42
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6729.8604,3.6831393,6092.9756};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 43;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item43
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6729.628,3.6998143,6095.618};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 44;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = 2.3841858e-007;
+				};
+				class Item44
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6729.8604,3.7029147,6098.1816};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 45;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item45
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6725.8984,3.56806,6098.1816};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 46;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item46
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6725.6655,3.549155,6095.773};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 47;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item47
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6725.432,3.6989472,6092.8213};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 48;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = -2.3841858e-007;
+				};
+				class Item48
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6725.6655,3.9456663,6090.0244};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 49;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item49
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6725.743,4.057861,6087.461};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 50;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item50
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6721.392,4.209405,6087.5376};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 51;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item51
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6721.392,4.0548944,6090.258};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 52;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item52
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6721.47,3.788275,6092.899};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 53;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item53
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6721.392,3.552219,6095.773};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 54;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item54
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6721.392,3.430637,6097.948};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 55;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item55
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6717.508,3.4027965,6098.026};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 56;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item56
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6717.508,3.572652,6095.618};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 57;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item57
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6717.43,3.7912202,6093.0547};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 58;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item58
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6717.508,4.044653,6090.49};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 59;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item59
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6717.508,4.2287946,6087.5376};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 60;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item60
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6713.4683,4.206253,6087.616};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 61;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item61
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6713.235,4.0231752,6090.258};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 62;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item62
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6713.235,3.6726265,6093.0547};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 63;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item63
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6713.313,3.5142488,6095.8516};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 64;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item64
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6713.4683,3.3787484,6098.4927};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 65;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item65
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6711.681,3.4490402,6098.1816};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 66;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item66
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6711.448,3.5443122,6095.618};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 67;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item67
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6711.215,3.748869,6092.8213};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 68;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item68
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6711.137,4.063869,6089.713};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 69;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item69
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6711.137,4.230616,6087.1504};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 70;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item70
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6708.108,3.6220624,6098.2593};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 71;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = -2.3841858e-007;
+				};
+				class Item71
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6707.8745,3.6828012,6095.54};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 72;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = 2.3841858e-007;
+				};
+				class Item72
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6707.719,3.7985682,6092.8213};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 73;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = 4.7683716e-007;
+				};
+				class Item73
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6707.4863,3.968409,6090.49};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 74;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item74
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6707.1753,4.136737,6087.461};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 75;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item75
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6705.311,4.0920444,6087.227};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 76;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item76
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6705.388,3.8855479,6090.568};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 77;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item77
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6705.466,3.7471762,6092.9756};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 78;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item78
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6705.6216,3.6816964,6095.3066};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 79;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item79
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6705.777,3.6722946,6098.414};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 80;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item80
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6704.223,3.6915817,6098.6475};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 81;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item81
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6704.0674,3.6398313,6095.54};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 82;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item82
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6703.9897,3.6404772,6093.442};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 83;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = 2.3841858e-007;
+				};
+				class Item83
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6703.6787,3.7739534,6090.7236};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 84;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item84
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6703.524,3.9608529,6087.461};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 85;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item85
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6701.4263,3.809835,6087.461};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 86;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item86
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6701.5815,3.6341746,6090.49};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 87;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item87
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6701.5815,3.4745336,6093.753};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 88;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = 2.3841858e-007;
+				};
+				class Item88
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6701.815,3.5249119,6095.618};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 89;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item89
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6702.1255,3.633924,6098.7256};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 90;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item90
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6699.251,3.5699582,6087.305};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 91;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item91
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6699.4844,3.4161081,6090.3345};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 92;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item92
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6699.251,3.229837,6093.753};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 93;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = -2.3841858e-007;
+				};
+				class Item93
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6699.795,3.325084,6095.696};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 94;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = 2.3841858e-007;
+				};
+				class Item94
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6699.717,3.5755856,6098.88};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 95;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item95
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6737.6294,3.6904001,6098.1816};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 96;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item96
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6737.785,3.6634042,6095.618};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 97;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item97
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6737.552,3.5586863,6092.044};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 98;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item98
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6737.552,3.456661,6089.7905};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 99;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item99
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {6737.474,3.307374,6087.227};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 100;
+					type = "Exile_Unit_GhostPlayer";
+				};
+			};
+			class Attributes{};
+			id = 0;
+		};
+
+	    class Item1
+	    {
+	        dataType = "Marker";
+	        position[] = {9383.25, 0, 6203.86};
+	        name = "ExileMarker1";
+	        text = "";
+	        markerType = "ELLIPSE";
+	        type = "ExileTraderZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        a = 79.787;
+	        b = 79.787;
+	        drawBorder = 1;
+	        id = 101;
+	        atlOffset = 0;
+	    };
+	    class Item2
+	    {
+	        dataType = "Marker";
+	        position[] = {9383.25, 0, 6203.86};
+	        name = "ExileMarker2";
+	        text = "";
+	        type = "ExileRussianRouletteIcon";
+	        id = 102;
+	        atlOffset = 0;
+	    };
+	    class Item3
+	    {
+	        dataType = "Marker";
+	        position[] = {4440.62, 0, 4310.25};
+	        name = "ExileMarker3";
+	        text = "";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 200;
+	        b = 200;
+	        drawBorder = 1;
+	        id = 103;
+	        atlOffset = 0;
+	    };
+	    class Item4
+	    {
+	        dataType = "Marker";
+	        position[] = {4440.62, 0, 4310.25};
+	        name = "ExileMarker4";
+	        text = "";
+	        type = "ExileSpecOpsTraderIcon";
+	        id = 104;
+	        atlOffset = 0;
+	    };
+	    class Item5
+	    {
+	        dataType = "Marker";
+	        position[] = {5638.88, 0, 5017.18};
+	        name = "ExileMarker5";
+	        text = "";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 200;
+	        b = 200;
+	        drawBorder = 1;
+	        id = 105;
+	        atlOffset = 0;
+	    };
+	    class Item6
+	    {
+	        dataType = "Marker";
+	        position[] = {5638.88, 0, 5017.18};
+	        name = "ExileMarker6";
+	        text = "";
+	        type = "ExileBoatTraderIcon";
+	        id = 106;
+	        atlOffset = 0;
+	    };
+	    class Item7
+	    {
+	        dataType = "Marker";
+	        position[] = {8935.29, 0, 4780.13};
+	        name = "ExileMarker7";
+	        text = "Boat Trader";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 200;
+	        b = 200;
+	        drawBorder = 1;
+	        id = 107;
+	        atlOffset = 0;
+	    };
+	    class Item8
+	    {
+	        dataType = "Marker";
+	        position[] = {8935.29, 0, 4780.13};
+	        name = "ExileMarker8";
+	        text = "";
+	        type = "ExileBoatTraderIcon";
+	        id = 108;
+	        atlOffset = 0;
+	    };
+	    class Item9
+	    {
+	        dataType = "Marker";
+	        position[] = {11747.3, 0, 2760.93};
+	        name = "ExileMarker9";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 800;
+	        b = 800;
+	        drawBorder = 1;
+	        id = 109;
+	        atlOffset = 0;
+	    };
+	    class Item10
+	    {
+	        dataType = "Marker";
+	        position[] = {5508.78, 0, 4064.09};
+	        name = "ExileMarker10";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 400;
+	        b = 400;
+	        drawBorder = 1;
+	        id = 110;
+	        atlOffset = 0;
+	    };
+	    class Item11
+	    {
+	        dataType = "Marker";
+	        position[] = {5393.42, 0, 7562.28};
+	        name = "ExileMarker11";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 477.981;
+	        b = 477.981;
+	        drawBorder = 1;
+	        id = 111;
+	        atlOffset = 0;
+	    };
+	    class Item12
+	    {
+	        dataType = "Marker";
+	        position[] = {5393.42, 0, 7562.28};
+	        name = "ExileMarker12";
+	        text = "";
+	        type = "ExileBoatTraderIcon";
+	        id = 112;
+	        atlOffset = 0;
+	    };
+	    class Item13
+	    {
+	        dataType = "Marker";
+	        position[] = {2265.13, 0, 8596.37};
+	        name = "ExileMarker13";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileTraderZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        a = 200;
+	        b = 200;
+	        drawBorder = 1;
+	        id = 113;
+	        atlOffset = 0;
+	    };
+	    class Item14
+	    {
+	        dataType = "Marker";
+	        position[] = {2265.13, 0, 8596.37};
+	        name = "ExileMarker14";
+	        text = "";
+	        type = "ExileTraderZoneIcon";
+	        id = 114;
+	        atlOffset = 0;
+	    };
+	    class Item15
+	    {
+	        dataType = "Marker";
+	        position[] = {11670.7, 0, 4106.17};
+	        name = "ExileMarker15";
+	        text = "";
+	        markerType = "ELLIPSE";
+	        type = "ExileTraderZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        a = 142.19;
+	        b = 142.19;
+	        drawBorder = 1;
+	        id = 115;
+	        atlOffset = 0;
+	    };
+	    class Item16
+	    {
+	        dataType = "Marker";
+	        position[] = {11670.7, 0, 4106.17};
+	        name = "ExileMarker16";
+	        text = "";
+	        type = "ExileTraderZoneIcon";
+	        id = 116;
+	        atlOffset = 0;
+	    };
+	    class Item17
+	    {
+	        dataType = "Marker";
+	        position[] = {10806.4, 0, 6388.1};
+	        name = "ExileMarker17";
+	        text = "Kotomo";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 117;
+	        atlOffset = 0;
+	    };
+	    class Item18
+	    {
+	        dataType = "Marker";
+	        position[] = {10806.4, 0, 6388.1};
+	        name = "ExileMarker18";
+	        text = "";
+	        type = "ExileSpawnZoneIcon";
+	        id = 118;
+	        atlOffset = 0;
+	    };
+	    class Item19
+	    {
+	        dataType = "Marker";
+	        position[] = {14356.3, 0, 8870.72};
+	        name = "ExileMarker19";
+	        text = "Nandai";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 119;
+	        atlOffset = 0;
+	    };
+	    class Item20
+	    {
+	        dataType = "Marker";
+	        position[] = {14356.3, 0, 8870.72};
+	        name = "ExileMarker20";
+	        text = "";
+	        type = "ExileSpawnZoneIcon";
+	        id = 120;
+	        atlOffset = 0;
+	    };
+	    class Item21
+	    {
+	        dataType = "Marker";
+	        position[] = {12543, 0, 12623.9};
+	        name = "ExileMarker21";
+	        text = "Ovau";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 121;
+	        atlOffset = 0;
+	    };
+	    class Item22
+	    {
+	        dataType = "Marker";
+	        position[] = {12543, 0, 12623.9};
+	        name = "ExileMarker22";
+	        text = "";
+	        type = "ExileSpawnZoneIcon";
+	        id = 122;
+	        atlOffset = 0;
+	    };
+	    class Item23
+	    {
+	        dataType = "Marker";
+	        position[] = {6530.2, 0, 13106.1};
+	        name = "ExileMarker23";
+	        text = "Nicolet";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 123;
+	        atlOffset = 0;
+	    };
+	    class Item24
+	    {
+	        dataType = "Marker";
+	        position[] = {6530.2, 0, 13106.1};
+	        name = "ExileMarker24";
+	        text = "";
+	        type = "ExileSpawnZoneIcon";
+	        id = 124;
+	        atlOffset = 0;
+	    };
+	    class Item25
+	    {
+	        dataType = "Marker";
+	        position[] = {8911.68, 0, 8520.49};
+	        name = "ExileMarker25";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 350;
+	        b = 350;
+	        drawBorder = 1;
+	        id = 125;
+	        atlOffset = 0;
+	    };
+	    class Item26
+	    {
+	        dataType = "Marker";
+	        position[] = {8911.68, 0, 8520.49};
+	        name = "ExileMarker26";
+	        text = "";
+	        type = "ExileSpecOpsTraderIcon";
+	        id = 126;
+	        atlOffset = 0;
+	    };
+	    class Item27
+	    {
+	        dataType = "Marker";
+	        position[] = {11579.8, 0, 13156};
+	        name = "ExileMarker27";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 600;
+	        b = 600;
+	        drawBorder = 1;
+	        id = 127;
+	        atlOffset = 0;
+	    };
+	    class Item28
+	    {
+	        dataType = "Marker";
+	        position[] = {11579.8, 0, 13156};
+	        name = "ExileMarker28";
+	        text = "";
+	        type = "ExileAircraftTraderIcon";
+	        id = 128;
+	        atlOffset = 0;
+	    };
+	    class Item29
+	    {
+	        dataType = "Marker";
+	        position[] = {8430.16, 0, 10246.8};
+	        name = "ExileMarker29";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileConcreteMixerZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 500;
+	        b = 500;
+	        drawBorder = 1;
+	        id = 129;
+	        atlOffset = 0;
+	    };
+	    class Item30
+	    {
+	        dataType = "Marker";
+	        position[] = {8430.16, 0, 10246.8};
+	        name = "ExileMarker30";
+	        text = "";
+	        type = "ExileConcreteMixerZoneIcon";
+	        id = 130;
+	        atlOffset = 0;
+	    };
+	    class Item31
+	    {
+	        dataType = "Marker";
+	        position[] = {11912.8, 0, 10322.6};
+	        name = "ExileMarker31";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileConcreteMixerZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 350;
+	        b = 350;
+	        drawBorder = 1;
+	        id = 131;
+	        atlOffset = 0;
+	    };
+	    class Item32
+	    {
+	        dataType = "Marker";
+	        position[] = {11912.8, 0, 10322.6};
+	        name = "ExileMarker32";
+	        text = "";
+	        type = "ExileConcreteMixerZoneIcon";
+	        id = 132;
+	        atlOffset = 0;
+	    };
+	    class Item33
+	    {
+	        dataType = "Marker";
+	        position[] = {11139.4, 0, 11546.9};
+	        name = "ExileMarker33";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileConcreteMixerZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 350;
+	        b = 350;
+	        drawBorder = 1;
+	        id = 133;
+	        atlOffset = 0;
+	    };
+	    class Item34
+	    {
+	        dataType = "Marker";
+	        position[] = {11139.4, 0, 11546.9};
+	        name = "ExileMarker34";
+	        text = "";
+	        type = "ExileConcreteMixerZoneIcon";
+	        id = 134;
+	        atlOffset = 0;
+	    };
+	    class Item35
+	    {
+	        dataType = "Marker";
+	        position[] = {12190.4, 0, 8167.03};
+	        name = "ExileMarker35";
+	        text = "";
+	        markerType = "ELLIPSE";
+	        type = "ExileTraderZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        a = 200;
+	        b = 200;
+	        drawBorder = 1;
+	        id = 135;
+	        atlOffset = 0;
+	    };
+	    class Item36
+	    {
+	        dataType = "Marker";
+	        position[] = {12190.4, 0, 8167.03};
+	        name = "ExileMarker36";
+	        text = "";
+	        type = "ExileTraderZoneIcon";
+	        id = 136;
+	        atlOffset = 0;
+	    };
+	    class Item37
+	    {
+	        dataType = "Marker";
+	        position[] = {12303.2, 0, 6572.3};
+	        name = "ExileMarker37";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 350;
+	        b = 350;
+	        drawBorder = 1;
+	        id = 137;
+	        atlOffset = 0;
+	    };
+	    class Item38
+	    {
+	        dataType = "Marker";
+	        position[] = {12303.2, 0, 6572.3};
+	        name = "ExileMarker38";
+	        text = "";
+	        type = "ExileBoatTraderIcon";
+	        id = 138;
+	        atlOffset = 0;
+	    };
+	    class Item39
+	    {
+	        dataType = "Marker";
+	        position[] = {13589.1, 0, 12163.3};
+	        name = "ExileMarker39";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 600;
+	        b = 600;
+	        drawBorder = 1;
+	        id = 139;
+	        atlOffset = 0;
+	    };
+	    class Item40
+	    {
+	        dataType = "Marker";
+	        position[] = {5579.34, 0, 10579.6};
+	        name = "ExileMarker40";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 850;
+	        b = 850;
+	        drawBorder = 1;
+	        id = 140;
+	        atlOffset = 0;
+	    };
+	    class Item41
+	    {
+	        dataType = "Marker";
+	        position[] = {2901.51, 0, 12333.8};
+	        name = "ExileMarker41";
+	        text = "";
+	        markerType = "ELLIPSE";
+	        type = "ExileContaminatedZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        a = 1600;
+	        b = 1600;
+	        drawBorder = 1;
+	        id = 141;
+	        atlOffset = 0;
+	    };
+	    class Item42
+	    {
+	        dataType = "Marker";
+	        position[] = {2901.51, 0, 12333.8};
+	        name = "ExileMarker42";
+	        text = "";
+	        type = "ExileContaminatedZoneIcon";
+	        id = 142;
+	        atlOffset = 0;
+	    };
+	    class Item43
+	    {
+	        dataType = "Marker";
+	        position[] = {7199.99, 0, 6961.1};
+	        name = "ExileMarker43";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 620;
+	        b = 620;
+	        drawBorder = 1;
+	        id = 143;
+	        atlOffset = 0;
+	    };
+	    class Item44
+	    {
+	        dataType = "Marker";
+	        position[] = {7199.99, 0, 6961.1};
+	        name = "ExileMarker44";
+	        text = "";
+	        type = "ExileAircraftTraderIcon";
+	        id = 144;
+	        atlOffset = 0;
+	    };
+	    class Item45
+	    {
+	        dataType = "Marker";
+	        position[] = {2161.18, 0, 3481.5};
+	        name = "ExileMarker45";
+	        text = "";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 400;
+	        b = 400;
+	        drawBorder = 1;
+	        id = 145;
+	        atlOffset = 0;
+	    };
+	    class Item46
+	    {
+	        dataType = "Marker";
+	        position[] = {2161.18, 0, 3481.5};
+	        name = "ExileMarker46";
+	        text = "";
+	        type = "ExileAircraftTraderIcon";
+	        id = 146;
+	        atlOffset = 0;
+	    };
+	    class Item47
+	    {
+	        dataType = "Marker";
+	        position[] = {9668.96, 0, 13569.2};
+	        name = "ExileMarker47";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 500;
+	        b = 500;
+	        drawBorder = 1;
+	        id = 147;
+	        atlOffset = 0;
+	    };
+	    class Item48
+	    {
+	        dataType = "Marker";
+	        position[] = {5010.64, 0, 8724.12};
+	        name = "ExileMarker48";
+	        text = "Regina";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 148;
+	        atlOffset = 0;
+	    };
+	    class Item49
+	    {
+	        dataType = "Marker";
+	        position[] = {5010.64, 0, 8724.12};
+	        name = "ExileMarker49";
+	        text = "";
+	        type = "ExileSpawnZoneIcon";
+	        id = 149;
+	        atlOffset = 0;
+	    };
+	    class Item50
+	    {
+	        dataType = "Marker";
+	        position[] = {8904.1, 0, 13795.4};
+	        name = "ExileMarker50";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 400;
+	        b = 400;
+	        drawBorder = 1;
+	        id = 150;
+	        atlOffset = 0;
+	    };
+	    class Item51
+	    {
+	        dataType = "Marker";
+	        position[] = {7991.1, 0, 12411.6};
+	        name = "ExileMarker51";
+	        text = "";
+	        markerType = "ELLIPSE";
+	        type = "ExileTraderZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        a = 200;
+	        b = 200;
+	        drawBorder = 1;
+	        id = 151;
+	        atlOffset = 0;
+	    };
+	    class Item52
+	    {
+	        dataType = "Marker";
+	        position[] = {7991.1, 0, 12411.6};
+	        name = "ExileMarker52";
+	        text = "";
+	        type = "ExileTraderZoneIcon";
+	        id = 152;
+	        atlOffset = 0;
+	    };
+	    class Item53
+	    {
+	        dataType = "Marker";
+	        position[] = {5409.88, 0, 10940.7};
+	        name = "ExileMarker53";
+	        text = "";
+	        type = "ExileBoatTraderIcon";
+	        id = 153;
+	        atlOffset = 0;
+	    };
+	    class Item54
+	    {
+	        dataType = "Marker";
+	        position[] = {11707.9, 0, 3032.66};
+	        name = "ExileMarker54";
+	        text = "Aircraft Trader";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 142.19;
+	        b = 142.19;
+	        drawBorder = 1;
+	        id = 154;
+	        atlOffset = 0;
+	    };
+	    class Item55
+	    {
+	        dataType = "Marker";
+	        position[] = {11707.9, 0, 3032.66};
+	        name = "ExileMarker55";
+	        text = "";
+	        type = "ExileAircraftTraderIcon";
+	        id = 155;
+	        atlOffset = 0;
+	    };
+	    class Item56
+	    {
+	        dataType = "Marker";
+	        position[] = {11074.7, 0, 13391.8};
+	        name = "ExileMarker56";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 600;
+	        b = 600;
+	        drawBorder = 1;
+	        id = 156;
+	        atlOffset = 0;
+	    };
+	    class Item57
+	    {
+	        dataType = "Marker";
+	        position[] = {11074.7, 0, 13391.8};
+	        name = "ExileMarker57";
+	        text = "";
+	        type = "ExileBoatTraderIcon";
+	        id = 157;
+	        atlOffset = 0;
+	    };
+	};
+};
