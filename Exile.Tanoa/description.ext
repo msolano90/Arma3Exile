@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings - Modify at will
 ///////////////////////////////////////////////////////////////////////////////
-author = "Exile Mod Team";
+author = "[tD] Mod Team";
 onLoadName = "Exile Mod";
 onLoadMission= "www.exilemod.com";
 loadScreen = "exile_assets\texture\mod\logo.paa"; 
@@ -65,23 +65,41 @@ showHUD[] =
 };
 
 #include "config.cpp"
+#include "ExAdClient\ExAd.cpp"
+
+class CfgFunctions
+{
+	#include "ExAdClient\CfgFunctions.cpp"
+};
+
+class RscTitles
+{
+	#include "ExAdClient\RscTitles.cpp"
+};
+
+class CfgHints
+{
+	#include "ExAdClient\CfgHints.cpp"
+};
+
+class CfgNetworkMessages
+{
+	#include "ExAdClient\CfgNetworkMessages.cpp"
+};
 
 class CfgRemoteExec
 {
-    class Functions
-    {
-        mode = 1;
-        jip = 0;
-
-        class ExileServer_system_network_dispatchIncomingMessage
-        {
-            allowedTargets = 2;
-        };
-    };
-
-    class Commands
-    {
-        mode = 0;
-        jip = 0;
-    };
+	class Functions
+	{
+		mode = 1;
+		jip = 0;
+		
+		class ExileServer_system_network_dispatchIncomingMessage { allowedTargets=2; };
+		class ExAdServer_fnc_clientRequest { allowedTargets=2; };
+	};
+	class Commands 
+	{
+		mode=0; 
+		jip=0; 
+	};
 };
