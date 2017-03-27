@@ -50,6 +50,15 @@ class ScenarioData
 
 class Mission
 {
+  addOns[]=
+    {
+        "exile_client",
+        "ryanzombies",
+        "ryanzombiesfunctions",
+        "ryanzombiesanims",
+        "ryanzombiesfaces",
+        "A3_Characters_F"
+    };
 	class Intel
 	{
 		timeOfChanges = 1800.0002;
