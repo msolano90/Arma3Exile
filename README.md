@@ -10,4 +10,4 @@ DMS UPDATE
 -Changed Random AI skill selection percentages
 -Add Comms Alpha Static mission to start and be primary repeatable mission.
 
---->Place new files into identical named locations of unedited & unpacked a3_dma.pbo, repack into .pbo and replace old on server.
+--->Pack a3_dms into .pbo, place in @ExileServer/addons. Start server
