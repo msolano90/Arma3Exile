@@ -5293,9 +5293,8 @@ class CfgSettings
 			"ItemMap", // Because why not
 			"Exile_Item_XM8",
 			"ItemRadio",
-			"Exile_Item_PlasticBottleFreshWater",
-			"Land_DuctTape_F",
-			"arifle_AK12_F",
+			"Exile_Item_DuctTape",
+			"arifle_AK12_GL_F",
 			"30Rnd_762x39_Mag_F",
 			"30Rnd_762x39_Mag_F"
 		};
@@ -5347,11 +5346,14 @@ class CfgSettings
 		 *
 		 * {Number of vehicles *per* spawn zone, vehicle class name}
 		 */
-		spawnZoneVehicles[] =
-		{
-			{5, "Exile_Bike_OldBike"},
-			{5, "Exile_Bike_MountainBike"}
-		};
+        spawnZoneVehicles[] =
+        {
+            {5, "Exile_Car_ProwlerUnarmed"},
+            {5, "Exile_Car_QilinUnarmed"},
+            {5, "Exile_Car_SUV_Black"},
+            {5, "Exile_Car_Strider"},
+			{5, "Exile_Car_Hunter"}
+        };
 	};
 
 	///////////////////////////////////////////////////////////////////////

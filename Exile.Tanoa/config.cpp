@@ -17,7 +17,7 @@ class CfgClans
 
 		Default: 20,000
 	*/
-	registrationFee = 20000;
+	registrationFee = 10;
 
 	/*
 		A list of all characters allowed in a clan *name*
@@ -2993,7 +2993,7 @@ class CfgExileLootSettings
 	 * is the upper cap for that. So 3 means it could spawn 1, 2 
 	 * or 3.
 	 */
-	maximumNumberOfItemsPerLootSpot = 2;
+	maximumNumberOfItemsPerLootSpot = 3;
 
 	/**
 	 * Radius in meter to spawn loot AROUND each player.
@@ -3004,14 +3004,14 @@ class CfgExileLootSettings
 	 * 50m  = Minimum
 	 * 200m = Maximum
 	 */
-	spawnRadius = 60;
+	spawnRadius = 100;
 
 	/**
 	 * Defines the radius around trader cities where the system should
 	 * not spawn loot. Set this to 0 if you want to have loot spawning
 	 * in trader citites, ugh.
 	 */
-	minimumDistanceToTraderZones = 500;
+	minimumDistanceToTraderZones = 100;
 
 	/**
 	 * Defines the radius around territories where no loot spawns.
@@ -3019,7 +3019,7 @@ class CfgExileLootSettings
 	 * set this to a lower value than the maximum radius of a territory,
 	 * which is 150m by default.
 	 */
-	minimumDistanceToTerritories = 150;
+	minimumDistanceToTerritories = 20;
 };
 class CfgExileMobileXM8
 {
@@ -3849,7 +3849,7 @@ class CfgTerritories
 	maximumRadius = 150;
 
 	// The above * 2 plus coverving the 20m you can move while placing things
-	minimumDistanceToOtherTerritories = 325; 
+	minimumDistanceToOtherTerritories = 200; 
 
 	// Maximum number of territories a player can own
 	maximumNumberOfTerritoriesPerPlayer = 2;
@@ -3858,13 +3858,13 @@ class CfgTerritories
 	 * Defines the minimum distance to safe zones / trader cities where players
 	 * cannot build territories
 	 */
-	minimumDistanceToTraderZones = 1000;
+	minimumDistanceToTraderZones = 500;
 
 	/**
 	 * Defines the minimum distance to spawn zones where players
 	 * cannot build territories
 	 */
-	minimumDistanceToSpawnZones = 1000;
+	minimumDistanceToSpawnZones = 100;
 
 	// Amount of pop tabs per object to pay
 	popTabAmountPerObject = 10;
@@ -4509,6 +4509,7 @@ class Glasses
 			"Exile_Item_Sand",
 			"Exile_Item_MobilePhone",
 			--Unused--
+			*/
 			"Exile_Item_CordlessScrewdriver",
 			"Exile_Item_FireExtinguisher",
 			"Exile_Item_OilCanister",
@@ -4518,7 +4519,7 @@ class Glasses
 			"Exile_Item_Defibrillator",
 			"Exile_Item_Wrench",
 			"Exile_Item_Rope"
-		*/
+		
 		};
 	};
 
@@ -4577,8 +4578,6 @@ class Glasses
 			"Exile_Item_Pliers",
 			"Exile_Item_Grinder",
 			"Exile_Item_Foolbox",
-
-			/*
 			"Exile_Item_CordlessScrewdriver",
 			"Exile_Item_FireExtinguisher",
 			"Exile_Item_Hammer",
@@ -4589,15 +4588,11 @@ class Glasses
 			"Exile_Item_SleepingMat",	
 			"Exile_Item_ToiletPaper",			
 			"Exile_Item_ZipTie",
-			*/
-
 			"Binocular",
 			"Rangefinder",
-			/*
 			"Laserdesignator",
 			"Laserdesignator_02",
 			"Laserdesignator_03",
-			*/
 			"NVGoggles",
 			"NVGoggles_INDEP",
 			"NVGoggles_OPFOR",
