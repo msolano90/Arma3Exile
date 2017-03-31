@@ -3,14 +3,11 @@ Version 1.7
 - Added Trader configs to accomodate @EBM installation
 - Added 5 more zombie spawn locations and attempted to center "No Mans Land" to cover entire, but only, the south east island.
 
-- /////////////////////////////////////////////////////////////////////////////
-- //-->Pack new Exile.Tanoa folder into .pbo and place into mpmissions folder//
-- //                                                                         //
-- //-->Pack new exilez folder into .pbo and place in @ExileServer/addons     //
-- //                                                                         //
-- //-->Use GTX Gaming 1-Click mod install to install Extended Base Mod,      //
-- //change folder name the @ebm and add to -mods line of start.bat.          //
-- /////////////////////////////////////////////////////////////////////////////
+
+- -->Pack new Exile.Tanoa folder into .pbo and place into mpmissions folder
+- -->Pack new exilez folder into .pbo and place in @ExileServer/addons     
+- -->Use GTX Gaming 1-Click mod install to install Extended Base Mod,
+- change folder name the @ebm and add to -mods line of start.bat.
 
 V 1.6
 DMS UPDATE
