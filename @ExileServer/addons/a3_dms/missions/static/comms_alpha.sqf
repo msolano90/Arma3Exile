@@ -21,13 +21,12 @@ if ([_pos,DMS_StaticMinPlayerDistance] call DMS_fnc_IsPlayerNearby) exitWith {"d
 //create possible difficulty add more of one difficulty to weight it towards that
 _PossibleDifficulty		= 	[	
 								"easy",
+								"easy",
+								"easy",
 								"moderate",
 								"moderate",
 								"difficult",
 								"difficult",
-								"difficult",
-								"hardcore",
-								"hardcore",
 								"hardcore",
 								"hardcore"
 							];
@@ -39,7 +38,7 @@ switch (_difficultyM) do
 	case "easy":
 	{
 		_difficulty = "easy";									//AI difficulty
-		_AICount = (15 + (round (random 5)));					//AI starting numbers
+		_AICount = (5 + (round (random 5)));					//AI starting numbers
 		_AIMaxReinforcements = (10 + (round (random 30)));		//AI reinforcement cap
 		_AItrigger = (10 + (round (random 5)));					//If AI numbers fall below this number then reinforce if any left from AIMax
 		_AIwave = (4 + (round (random 4)));						//Max amount of AI in reinforcement wave
@@ -56,7 +55,7 @@ switch (_difficultyM) do
 	case "moderate":
 	{
 		_difficulty = "moderate";
-		_AICount = (20 + (round (random 5)));
+		_AICount = (7 + (round (random 5)));
 		_AIMaxReinforcements = (20 + (round (random 20)));
 		_AItrigger = (10 + (round (random 10)));
 		_AIwave = (5 + (round (random 3)));
@@ -73,7 +72,7 @@ switch (_difficultyM) do
 	case "difficult":
 	{
 		_difficulty = "difficult";
-		_AICount = (20 + (round (random 7)));
+		_AICount = (10 + (round (random 7)));
 		_AIMaxReinforcements = (30 + (round (random 20)));
 		_AItrigger = (10 + (round (random 10)));
 		_AIwave = (6 + (round (random 2)));
@@ -91,7 +90,7 @@ switch (_difficultyM) do
 	default
 	{
 		_difficulty = "hardcore";
-		_AICount = (20 + (round (random 10)));
+		_AICount = (12 + (round (random 7)));
 		_AIMaxReinforcements = (40 + (round (random 10)));
 		_AItrigger = (15 + (round (random 5)));
 		_AIwave = (6 + (round (random 2)));
