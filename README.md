@@ -5,10 +5,12 @@ V 1.7 Traders & EBM
 
 
 1 - Pack new Exile.Tanoa folder into .pbo and place into mpmissions folder
-2 - Pack new exilez folder into .pbo and place in @ExileServer/addons     
+- 
+2 - Pack new exilez folder into .pbo and place in @ExileServer/addons 
+- 
 3 - Use GTX Gaming 1-Click mod install to install Extended Base Mod,
     change folder name the @ebm and add to -mods line of start.bat.
-
+- 
 V 1.6
 DMS UPDATE
 - Changed Skill
