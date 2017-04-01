@@ -22,7 +22,7 @@ class ExAd_STATSBAR
 			w = "safeZoneW";
 			h = "30 * pixelH";
 		};
-		class Logo
+		/*class Logo
 		{	
 			type= 0;
 			idc = 1000;
@@ -36,6 +36,6 @@ class ExAd_STATSBAR
 			font="TahomaB";
 			sizeEx=0;
 			text = "";
-		};	
+		};*/	
 	};
 };
