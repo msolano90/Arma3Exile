@@ -41,7 +41,7 @@ SC_fastNights               	= true;						// true if you want night time to go f
 SC_occupyPlaces 				= true;						// true if you want villages,towns,cities patrolled by bandits
 SC_occupyTraders            	= true;						// true if you want to create trader camps at positions specified in SC_occupyTraderDetails
 SC_occupyStatic	 		    	= false;		    		// true if you want to add AI in specific locations
-SC_occupyTransport 	        	= true;						// true if you want pubic transport (travels between traders)
+SC_occupyTransport 	        	= false;						// true if you want pubic transport (travels between traders)
 SC_occupyLootCrates		    	= false;						// true if you want to have random loot crates with guards
 SC_occupyRandomSpawn        	= false;                		// (WORK IN PROGRESS) true if you want random spawning AI that hunt for nearby players
 SC_occupyMilitary 		    	= false;			    	// true if you want military buildings patrolled
@@ -207,7 +207,7 @@ SC_occupyHeliCrashesLocations	= [
                                 ];
 SC_HeliCrashesOnFire			= false;                 	// true if you want the crash on fire, false if you just want smoke
 SC_SpawnHeliCrashGuards			= true;						// true if you want to enable AI guards
-SC_numberofHeliCrashes      	= 5;						// if SC_occupyHeliCrashes = true spawn this many Heli Crashes
+SC_numberofHeliCrashes      	= 7;						// if SC_occupyHeliCrashes = true spawn this many Heli Crashes
 SC_HeliCrashGuards          	= 3;                    	// number of AI to spawn at each crate
 SC_HeliCrashGuardsRandomize 	= true;                 	// Use a random number of guards up to a maximum = SC_HeliCrashGuards (so between 1 and SC_HeliCrashGuards)
 
@@ -246,7 +246,7 @@ SC_HeliCrashMagazinesAmount 	= [2,2]; 	// [fixed amount to add, random amount to
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 SC_minimumCrewAmount        	= 2;     	// Minimum amount of AI allowed in a vehicle
-SC_maximumCrewAmount        	= 5;     	// Maximum amount of AI allowed in a vehicle
+SC_maximumCrewAmount        	= 4;     	// Maximum amount of AI allowed in a vehicle
 											// (essential crew like drivers and gunners will always spawn regardless of these settings)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -304,7 +304,7 @@ SC_SurvivorVehicleClassToUseRare		=   [
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////								
 																					
 // Settings for roaming airborne AI (non armed helis will just fly around)
-SC_maxNumberofHelis		    	= 3;
+SC_maxNumberofHelis		    	= 1;
 SC_occupySkyVehicleIgnoreCount		= true;	// true if you want spawn vehicles regardless of overall AI count
 
 // Array of aircraft which can be used by AI patrols (the number next to next vehicle is the maximum amount of that class allowed, 0 for no limit)
@@ -455,7 +455,7 @@ if (worldName == 'Chernarus' AND SC_useMapOverrides) then
 if (worldName == 'Tanoa' AND SC_useMapOverrides) then 
 { 
     SC_useApexClasses       	= true;
-	SC_maxAIcount				= 120;
+	SC_maxAIcount				= 80;
 	
 };
 
