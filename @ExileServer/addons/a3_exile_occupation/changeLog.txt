@@ -1,0 +1,251 @@
+=================================================================================
+V65 (30-08-2016)
+=================================================================================
+Tweaks to the randomspawn AI to try to get them to search buildings if you hide 
+from them :)
+
+Get well soon Bastian/Eichi, we're all thinking of you XX
+
+=================================================================================
+V64 (27-08-2016)
+=================================================================================
+Another bug fixed in the repair vehicle eventhandler
+
+=================================================================================
+V63 (26-08-2016)
+=================================================================================
+Major bug fix in the random spawn module
+
+=================================================================================
+V62 (25-08-2016)
+=================================================================================
+Couple of tweaks to the random spawn positioning to fix a performance issue
+
+=================================================================================
+V61 (24-08-2016)
+=================================================================================
+Fixes for the eventhandler on ground vehicles that were causing server freezing
+other additional tweaks (can't remember exactly what :o )
+
+=================================================================================
+V60 (15-08-2016)
+=================================================================================
+Bug fixes and tweaks
+
+=================================================================================
+V59 (12-08-2016)
+=================================================================================
+Random spawn tweaks and a few other optimisations
+
+=================================================================================
+V58 (10-08-2016)
+=================================================================================
+Initial version of random spawn module added
+
+=================================================================================
+V57 (09-08-2016)
+=================================================================================
+OccupationPlaces module fixed when the location found can't find a safeposition to 
+spawn the AI
+
+=================================================================================
+V56 (05-08-2016)
+=================================================================================
+config.sqf tidied up
+Added the option to specify patrol locations and radius for roaming ai (land/sky/sea)
+Updated the DMS anti freeze setting to work with the latest DMS version to stop
+roaming vehicles from freezing
+Added more info to the process reporter log entries
+
+=================================================================================
+V55 (27-07-2016)
+=================================================================================
+Tweaked military AI
+Added _vehicleObject setVariable ["ExileIsPersistent", false]; to vehicle spawns
+to allow them to be claimed using:
+http://www.exilemod.com/topic/13283-updated-claim-non-persistent-vehicles/
+
+=================================================================================
+V54 (26-07-2016)
+=================================================================================
+Reworked military spawning to include the entire map rather than a small area 
+(including the new military buildings on Tanoa). Tweaked the spawning of AI in an 
+attempt to stop groups of AI randomly murdering each other when spawning 
+(thanks to Zupa for the pointers)
+
+=================================================================================
+V53 (20-07-2016)
+=================================================================================
+Added checks to stop vehicles spawning on dirt tracks on Tanoa
+Added blacklist area for Tanoa Airport
+Fixed typo in heli eventhandler
+
+=================================================================================
+V52 (19-07-2016)
+=================================================================================
+Traders now use the new Exile format
+Various tweaks and bug fixes
+
+
+=================================================================================
+V51 (27-06-2016)
+=================================================================================
+Added the option to specify fixed loot crate locations
+
+
+=================================================================================
+V50 (24-06-2016)
+=================================================================================
+Added the option to specify fixed waypoints for the public transport
+
+=================================================================================
+V49 (22-06-2016)
+=================================================================================
+Changed the map marker names for loot crates to stop clashing with a previously 
+released loot crate script
+
+Fixed a bug in the unstick script which was resulting in the patrol order being 
+wiped after the vehicle was unstuck
+
+Added SC_useApexClasses to config (allow or disallow use of Apex items in Occupation)
+
+Added SC_colourTransport to config (allow or disallow the changing of the colour
+of the public transport)
+
+Added SC_secureTransport to config (allow or disallow damage to the public transport
+and its driver, set to false to allow damage). If the driver dies then the vehicle
+will explode.
+
+=================================================================================
+V48 (16-06-2016)
+=================================================================================
+Added the setting SC_useMapOverrides, setting to true activates the map specific 
+overrides at the bottom of the config.sqf, false ignores the settings
+
+Removed the over write for DMS_Enable_RankChange
+
+Added in checks for the transport module to only spawn the public transport if there
+are more than 1 destination map markers (in the dev branch map markers are not 
+displaying correctly intermittently which is causing issues). Check the server rpt
+if your transport is not spawning and you have activated it.
+
+
+=================================================================================
+V47 (13-06-2016)
+=================================================================================
+Fixed a bug in Occupation places modules
+
+=================================================================================
+V46 (10-06-2016)
+=================================================================================
+Dynamic Traders are now working (placement of the base can be temperamental)
+If you want to design your own trader base, traders are automatically placed in front
+of the large trader signs. Look in the example trader1.sqf to see how it works. The
+example file was exported from Eden using M3Editor.
+
+=================================================================================
+V45 (05-06-2016)
+=================================================================================
+Helicrash rare loot option added
+Fixed the number of Loot crates spawning
+Fixed the random public transport selection
+Improved vehicle AI (they shouldn't stop patrolling now)
+
+
+=================================================================================
+V44 (31-05-2016)
+=================================================================================
+Fixed error when real names were disabled
+
+Added a process reporter module which logs server processes every 60 seconds to 
+the rpt or dedicated log file if using infiSTAR logging (useful for diagnosing 
+poor server performance)
+
+=================================================================================
+V43 (26-05-2016)
+=================================================================================
+Added the option to specify multiple class names to potentially be used for the 
+public transport option. Tweaked Icon for Occupation Airlines
+
+Added an option (SC_numberofHeliCrashesFire) in the config that allows you to turn 
+off the fire at heli crashes
+
+AI units should attempt to take ammo from dead players/dead AI and loot spawns if
+they run out of ammo and there is suitable ammo available
+=================================================================================
+V42 (22-05-2016)
+=================================================================================
+Forced reload after spawning AI to make sure they are ready to fire when they spot 
+an enemy
+Added in compatibility with the new DMS feature AI freezing
+
+=================================================================================
+V41 (17-05-2016)
+=================================================================================
+Dead AI should be ejected from any captured land vehicle when you get in them
+
+=================================================================================
+V40 (12-05-2016)
+=================================================================================
+Added SC_ropeAttach variable to the config.sqf to allow/disallow airlifting of lootcrates
+Renamed and altered folder structure for functions and some eventhandlers
+Map markers on occupationPlaces and now get removed when the AI are all killed
+Tweaked the land vehicle repair event handler
+Added SC_blackListedAreas to allow blacklisting of areas of the map
+
+=================================================================================
+V39 (08-05-2016)
+=================================================================================
+Added a check to make sure the array of vehicles checked in the unstick routine exist
+before trying to unstick them
+
+Removed the use dependency on DMS_fnc_findSafePos as the format is changing in the
+test version of DMS, I will switch back to using it once it has been rolled out and 
+everyone is using it
+
+=================================================================================
+V38 (08-05-2016)
+=================================================================================
+Added a check to the transport module to check the transport vehicle class name 
+is valid and to to make sure there are valid map markers to use for stopping points
+
+=================================================================================
+V37 (06-05-2016)
+=================================================================================
+Added limit checks for the amount of each class of vehicle in Sky, Sea and Vehicle modules
+
+=================================================================================
+V36 (05-05-2016)
+=================================================================================
+Fixed the checks for valid vehicles in Sky, Sea and Vehicle modules
+
+=================================================================================
+V35 (05-05-2016)
+=================================================================================
+Added checks for valid vehicles in Sky, Sea and Vehicle modules
+Added the ability to add names to be used for AI
+Altered eventhandlers triggered to repair land vehicles that were getting stuck in a loop
+Added the option to ignore AI count when spawning land vehicles (set SC_occupyVehicleIgnoreCount = true)
+
+=================================================================================
+V28-V31 (27-04-2016)
+=================================================================================
+Altereed a few eventhandlers
+
+Fixed multiple static spawns so they are independent of each other
+
+=================================================================================
+V27 (26-04-2016)
+=================================================================================
+Added the option fully control the gear assigned to bandit and survivor units
+
+Added the option for helicopters as public transport, the heli travels between traders 
+and lands for about 60 seconds. Setting SC_occupyTransportClass to a helicopter classname 
+will switch it over to using a helicopter, if you want to continue using the land vehicle 
+set SC_occupyTransportClass to a land vehicle.
+
+Added the option to set the maximum crew (crew count will be a random number between 
+the max and min). The applies for all AI vehicles.
+
+Added a separate SC_VehicleClassToUseRare list of vehicles which spawn 10% of the 
+time in place of the standard SC_VehicleClassToUse list.
