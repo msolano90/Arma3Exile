@@ -1,20 +1,29 @@
 # Arma3Exile
+V 1.7 Traders & EBM
+- Added Trader configs to accomodate @EBM installation
+- Added 5 more zombie spawn locations and attempted to center "No Mans Land" to cover entire, but only, the south east island.
+- Fixed amount of AI that spawn with main mission
 
---> Pack Exile.Tanoa into .pbo file and place into mpmissions folder.
-
---> Navigate to @ExileServer/Addons and pack exac_core into a .pbo and place in identically named location on server.
-
+1 - Pack new Exile.Tanoa folder into .pbo and place into mpmissions folder
+- 
+2 - Pack new exilez folder into .pbo and place in @ExileServer/addons 
+-
+3 - Pack new a3_dms folder into .pbo and place in @ExileServer/addons
+-
+4 - Use GTX Gaming 1-Click mod install to install Extended Base Mod,
+    change folder name the @ebm and add to -mods line of start.bat.
+- 
+V 1.6
 DMS UPDATE
+- Changed Skill
+- Changed Random AI skill selection percentages
+- Add Comms Alpha Static mission to start and be primary repeatable mission.
+- *Fixed Issue with config calling object file instead of mission file. Now calls mission file*
 
--Changed Skill
--Changed Random AI skill selection percentages
--Add Comms Alpha Static mission to start and be primary repeatable mission.
--*Fixed Issue with config calling object file instead of mission file. Now calls mission file*
-
---->Pack a3_dms into .pbo, place in @ExileServer/addons. Start server
-
+V 1.5
 Enigma Revive
--Added revive ability with defib
+- Added revive ability with defib
 
----> Pack enigma_exile_revive into .pbo and place in @ExileServer/addons
----> Pack Exile.Tanoa into .pbo and place in MPMissions
+**Remove install instructions with each update to provide only newest information.**
+*KlownGT*
+
