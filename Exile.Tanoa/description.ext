@@ -24,7 +24,7 @@ forceRotorLibSimulation = 2;
 skipLobby = 1;
 joinUnassigned = 1;
 respawn = "BASE";
-respawnDelay = 120;
+respawnDelay = 600;
 respawnDialog = 0;
 respawnOnStart = 0;
 respawnButton = 1; 
@@ -48,8 +48,8 @@ allowFunctionsRecompile = 0;
 showSquadRadar = 0;
 showUAVFeed = 0;
 reviveDelay = 6;
-reviveForceRespawnDelay = 3;
-reviveBleedOutDelay = 120;
+reviveForceRespawnDelay = 300;
+reviveBleedOutDelay = 600;
 
 showHUD[] = 
 {

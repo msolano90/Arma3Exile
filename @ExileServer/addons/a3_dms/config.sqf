@@ -82,7 +82,7 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 	/*Mission Marker settings*/
 	DMS_ShowDifficultyColorLegend		= true;						// Whether or not to show a "color legend" at the bottom left of the map that shows which color corresponds to which difficulty. I know it's not very pretty, meh.
 	DMS_ShowMarkerCircle				= false;					// Whether or not to show the colored "circle" around a mission marker.
-	DMS_MarkerText_ShowMissionPrefix	= true;						// Whether or not to place a prefix before the mission marker text. Enable this if your players get confused by the marker names :P
+	DMS_MarkerText_ShowMissionPrefix	= false;						// Whether or not to place a prefix before the mission marker text. Enable this if your players get confused by the marker names :P
 	DMS_MarkerText_MissionPrefix		= "Mission:";				// The text displayed before the mission name in the mission marker.
 	DMS_MarkerText_ShowAICount			= true;						// Whether or not to display the number of remaining AI in the marker name.
 	DMS_MarkerText_ShowAICount_Static	= true;						// Whether or not to display the number of remaining AI in the marker name for STATIC missions.
@@ -183,7 +183,7 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 	/*Mine settings*/
 
 	DMS_MinPlayerCount					= 0; 						// Minimum number of players until mission start
-	DMS_MinServerFPS					= 5; 						// Minimum server FPS for missions to start
+	DMS_MinServerFPS					= 25; 						// Minimum server FPS for missions to start
 
 	/*Mission notification settings*/
 	DMS_PlayerNotificationTypes =		[									// Notification types. Supported values are: ["dynamicTextRequest", "standardHintRequest", "systemChatRequest", "textTilesRequest", "ExileToasts"]. Details below.
@@ -339,20 +339,20 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 	DMS_GiveMoneyToPlayer_OnAIKill		= true;						// Whether or not to give money directly to players when they kill AI (old method of giving money).
 	DMS_GiveRespectToPlayer_OnAIKill	= true;						// Whether or not to give respect to players when they kill AI.
 
-	DMS_Bandit_Soldier_MoneyGain		= 50;						// The amount of Poptabs gained for killing a bandit soldier
+	DMS_Bandit_Soldier_MoneyGain		= 500;						// The amount of Poptabs gained for killing a bandit soldier
 	DMS_Bandit_Soldier_RepGain			= 10;						// The amount of Respect gained for killing a bandit soldier
 	DMS_Bandit_Soldier_RankGain			= 15;
-	DMS_Bandit_Soldier_SpawnMoney		= 50;						// The amount of Poptabs carried by a bandit soldier
+	DMS_Bandit_Soldier_SpawnMoney		= 500;						// The amount of Poptabs carried by a bandit soldier
 
-	DMS_Bandit_Static_MoneyGain			= 75;						// The amount of Poptabs gained for killing a bandit static gunner
+	DMS_Bandit_Static_MoneyGain			= 750;						// The amount of Poptabs gained for killing a bandit static gunner
 	DMS_Bandit_Static_RepGain			= 15;						// The amount of Respect gained for killing a bandit static gunner
 	DMS_Bandit_Static_RankGain			= 30;
-	DMS_Bandit_Static_SpawnMoney		= 75;						// The amount of Poptabs carried by a bandit static gunner
+	DMS_Bandit_Static_SpawnMoney		= 750;						// The amount of Poptabs carried by a bandit static gunner
 
-	DMS_Bandit_Vehicle_MoneyGain		= 100;						// The amount of Poptabs gained for killing a bandit vehicle crew member
+	DMS_Bandit_Vehicle_MoneyGain		= 1000;						// The amount of Poptabs gained for killing a bandit vehicle crew member
 	DMS_Bandit_Vehicle_RepGain			= 25;						// The amount of Respect gained for killing a bandit vehicle crew member
 	DMS_Bandit_Vehicle_RankGain			= 50;
-	DMS_Bandit_Vehicle_SpawnMoney		= 100;						// The amount of Poptabs carried by a bandit vehicle crew member
+	DMS_Bandit_Vehicle_SpawnMoney		= 1000;						// The amount of Poptabs carried by a bandit vehicle crew member
 
 /* DonkeyPunchDMS Custom Settings for Hero AI*/
 	DMS_Hero_Soldier_MoneyGain			= 100;						// The amount of Poptabs gained for killing a hero soldier

@@ -448,7 +448,7 @@ class Tools
 		"Exile_Item_Wrench",
 		"Exile_Item_Pliers",
 		"Exile_Item_Grinder",
-        "Exile_Item_Foolbox",
+        	"Exile_Item_Foolbox",
 		"Exile_Melee_SledgeHammer",
 		"Exile_Item_Hammer",
 		"Binocular",
@@ -478,8 +478,8 @@ class FirstAid
 		"Exile_Item_InstaDoc",
 		"Exile_Item_Bandage",
 		"Exile_Item_Vishpirin",
-		"Exile_Item_Heatpack"
-        //"Exile_Item_Defibrillator"
+		"Exile_Item_Heatpack",
+        	"Exile_Item_Defibrillator"
 	};
 };
 

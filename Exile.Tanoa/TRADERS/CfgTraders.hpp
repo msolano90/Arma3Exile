@@ -8,85 +8,24 @@
 		categories[] = 
 		{
 			"PointerAttachments",
-			//"CUPPointerAttachments",
-			//"MASPointerAttachments",
-			//"R3FPointerAttachments",
-			//"RHSPointerAttachments",
 			"BipodAttachments",
-			//"APEXBipodAttachments",		//not used
-			//"R3FBipodAttachments",
-			//"RHSBipodAttachments",
-			//"RHSForegripAttachments",
 			"MuzzleAttachments",
 			"APEXMuzzleAttachments",
-			//"HLCMuzzleAttachments",		//should use NIArms
-			//"CUPMuzzleAttachments",
-			//"MASMuzzleAttachments",
-			//"NIAMuzzleAttachments",
-			//"R3FMuzzleAttachments",
-			//"RHSMuzzleAttachments",
 			"OpticAttachments",
 			"APEXOpticAttachments",
-			//"HLCOpticAttachments",		//should use NIArms
-			//"CUPOpticAttachments",
-			//"MASOpticAttachments",
-			//"NIAOpticAttachments",
-			//"R3FOpticAttachments",
-			//"RHSOpticAttachments",
-			//"NIAAttachments",
 			"Ammunition",
 			"APEXAmmunition",
-			//"GREFAmmunition",
-			//"HLCAmmunition",		//should use NIArms
-			//"CUPAmmunition",
-			//"MASAmmunition",
-			//"NIAAmmunition",
-			//"R3FAmmunition",
-			//"RHSAmmunition",
 			"Pistols",
 			"APEXPistols",
-			//"CUPPistols",
-			//"MASPistols",
-			//"R3FPistols",
-			//"RHSPistols",
 			"Shotguns",
 			"SubMachineGuns",
 			"APEXSubMachineGuns",
-			//"CUPSubMachineGuns",
-			//"MASSubMachineGuns",
-			//"R3FSubMachineGuns",
-			//"RHSSubMachineGuns",
 			"LightMachineGuns",
 			"APEXLightMachineGuns",
-			//"HLCLightMachineGuns",		//should use NIArms
-			//"CUPLightMachineGuns",
-			//"MASLightMachineGuns",
-			//"NIALightMachineGuns",
-			//"R3FLightMachineGuns",
-			//"RHSLightMachineGuns",
 			"AssaultRifles",
 			"APEXAssaultRifles",
-			//"HAPASSAULTRIFLES",
-			//"HLCAssaultRifles",		//should use NIArms
-			//"CUPAssaultRifles",
-			//"MASAssaultRifles",
-			//"NIAAssaultRifles",
-			//"R3FAssaultRifles",
-			//"RHSAssaultRifles",
-			//"GREFWeapons",
 			"SniperRifles",
 			"APEXSniperRifles"
-			//"HAPSNIPERRIFLES",
-			//"HLCSniperRifles",		//should use NIArms
-			//"HWPweapons",
-			//"CUPSniperRifles",
-			//"MASSniperRifles",
-			//"NIASniperRifles",
-			//"R3FSniperRifles",
-			//"RHSSniperRifles",
-			//"SAFWeapons", 
-			//"SAFAmmunition", 
-			//"SAFAttachments"
 		};
 	};
 
@@ -105,24 +44,11 @@
 			"StaticMGs",
 			"Navigation",
 			"ExplosiveWeapons",
-			"Explosives"
-			//"A3Launchers",
-			//"ApexLaunchers",
-			//"CUPLaunchers",
-			//"MASLaunchers",
-			//"R3FLaunchers",
-			//"RHSLaunchers",
-			//"CUPLauncherAmmo",
-			//"MASLauncherAmmo",
-			//"R3FLauncherAmmo",
-			//"RHSLauncherAmmo",
-			//"A3LauncherAmmo",
-			//"APEXLauncherAmmo",
-			//"CUPExplosive",
-			//"MASExplosive",
-			//"RHSExplosives",
-			//"RHSUGLAmmo",
-			//"SAFMines"
+			"Explosives",
+			"A3Launchers",
+			"ApexLaunchers",
+			"A3LauncherAmmo",
+			"APEXLauncherAmmo"
 		};
 	};
 
@@ -137,39 +63,15 @@
 		{
 			"Headgear",
 			"APEXHeadgear",
-			//"HAPHEADGEAR",
-			//"MASHeadgear",
-			//"RHSHeadgear",
-			//"GREFHeadgear",
-			//"TRYKHeadgear",
 			"Uniforms",
 			"APEXUniforms",
-			//"HAPUNIFORMS",
-			//"RHSUniforms",
-			//"GREFUniforms",
-			//"TRYKUniforms",
-			//"RHSAccessories",
 			"Vests",
 			"APEXVests",
-			//"HAPVESTS",
-			//"RHSVests",
-			//"GREFVests",
-			//"TRYKVests",
 			"Backpacks",
 			"APEXBackpacks",
 			"A3Backpacks",
-			//"HAPBACKPACKS",
-			//"MASBackpacks",
-			//"TRYKBackpacks",
-			//"RHSBackpacks",
 			"Tools",
-			//"APEXTools",		//not used
-			//"MASTools",
 			"FirstAid"
-			//"SAFUniforms",
-			//"SAFVests",
-			//"SAFHeadgear",
-			//"SAFBackpacks"
 		};
 	};
 
@@ -197,9 +99,7 @@
 		categories[] = 
 		{
 			"Hardware",
-			//"R3FTools",
 			"ExtendedBaseMod"
-			//"CBuilding"
 		};
 	};
 
@@ -216,33 +116,10 @@
 			"Cars",
 			"A3Cars",
 			"ApexCars",
-			//"HAPCARS",
-			//"HVPCars",
-			//"JonzieCars",
-			//"MASCars",
-			//"CUPUnarmed",
 			"ApexTrucks",
-			//"HAPTRUCKS",
-			//"MASTrucks",
-			//"CUPArmed",
-			//"MASArmed",
 			"A3Armed",
-			//"SAFUnarmed", 
-			//"SAFArmed",
-			//"RHSVehicles",
-			//"GREFArmed",
-			//"GREFUnarmed",
-			//"CTrucks",
 			"Trucks",
 			"A3Trucks"
-			//"CUGVs",
-			//"FMPCars",
-			//"FMPTrucks"
-			//"MASTanks"
-			//"A3Tanks"	
-			//"UGV"	
-			//"A3UGVs"	
-			//"ApexUAVs"
 		};
 	};
 
@@ -257,25 +134,11 @@
 		{
 			"Choppers",
 			"ApexChoppers",
-			//"CChoppers",			
-			//"CUPChoppers",
-			//"MASChoppers",
-			//"RHSChoppers",
-			//"GREFChoppers",
 			"A3unarmedChoppers",
 			"A3armedChoppers",
 			"Planes",
 			"A3Planes",
-			"ApexPlanes"
-			//"CPlanes",
-			//"HVPPlanes",
-			//"MASPlanes",
-			//"SAFChoppers",
-			//"RHSPlanes",
-			//"GREFPlanes",
-			//"CUAVs",
-			//"A3UAVs",
-			//"Pods"		
+			"ApexPlanes"		
 		};
 	};
 
