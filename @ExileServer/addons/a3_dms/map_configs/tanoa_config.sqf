@@ -18,5 +18,5 @@ DMS_MinSurfaceNormal				= 0.8;
 
 DMS_StaticMissionsOnServerStart append
 [
-	"comms_alpha"
+	"hotel_invasion"
 ];
