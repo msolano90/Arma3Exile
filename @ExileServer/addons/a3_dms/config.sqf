@@ -269,9 +269,9 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 
 
 	DMS_StaticMissionTypes =			[		// List of STATIC missions with spawn chances.
-											["comms_alpha",1],
+											["comms_alpha",2],
 											["hotel_invasion",1],
-											["georgetown",1]
+											["georgetown",3]
 										];
 
 	DMS_SpecialMissions =				[								// List of special missions with restrictions. Each element must be defined as [mission<STRING>, minPlayers<SCALAR>, maxPlayers<SCALAR>, timesPerRestart<SCALAR>, _timeBetween<SCALAR>].
