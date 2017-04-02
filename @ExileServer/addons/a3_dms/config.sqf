@@ -63,7 +63,7 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 
 	/*General settings for static missions*/
 	DMS_StaticMission					= true;						// Enable/disable static mission system.
-	DMS_MaxStaticMissions				= 1;						// Maximum number of Static Missions running at the same time. It's recommended you set this to the same amount of static missions that you have in total. This config will be ignored by "DMS_StaticMissionsOnServerStart".
+	DMS_MaxStaticMissions				= 2;						// Maximum number of Static Missions running at the same time. It's recommended you set this to the same amount of static missions that you have in total. This config will be ignored by "DMS_StaticMissionsOnServerStart".
 	DMS_TimeToFirstStaticMission		= [30,30];					// [Minimum,Maximum] time between first static mission spawn. | DEFAULT: 3-7 minutes.
 	DMS_TimeBetweenStaticMissions		= [900,1800];				// [Minimum,Maximum] time between static missions (if static mission limit is not reached) | DEFAULT: 15-30 mins
 	DMS_StaticMissionTimeOut			= [1800,3600]; 				// [Minimum,Maximum] time it will take for a static mission to timeout | DEFAULT: 30-60 mins
@@ -269,11 +269,9 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 
 
 	DMS_StaticMissionTypes =			[		// List of STATIC missions with spawn chances.
-											["comms_alpha",5]
-											//["saltflats",1]		//<--Example (already imported by default on Altis in map configs)
-											//["slums",1]			//<--Example (already imported by default on Altis in map configs)
-											//["occupation",1]		//<--Example
-											//["sectorB",1]			//<--Example for Taviana
+											["comms_alpha",1],
+											["hotel_invasion",1],
+											["georgetown",1]
 										];
 
 	DMS_SpecialMissions =				[								// List of special missions with restrictions. Each element must be defined as [mission<STRING>, minPlayers<SCALAR>, maxPlayers<SCALAR>, timesPerRestart<SCALAR>, _timeBetween<SCALAR>].
@@ -281,7 +279,8 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 										];
 
 	DMS_BasesToImportOnServerStart = 	[								// List of static bases to import on server startup (spawned post-init). This will reduce the amount of work the server has to do when it actually spawns static missions, and players won't be surprised when a base suddenly pops up. You can also include any other M3E-exported bases to spawn here.
-											"comms_alpha_buildings"
+											"comms_alpha_buildings",
+											"hotel_invasion_buildings"
 											//"saltflatsbase",		//<--Example (already imported by default on Altis)
 											//"slums_objects"		//<--Example (already imported by default on Altis)
 										];
