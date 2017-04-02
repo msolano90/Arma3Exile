@@ -23,11 +23,15 @@ _PossibleDifficulty		= 	[
 								"easy",
 								"easy",
 								"easy",
+								"easy",
+								"easy",
+								"easy",
+								"moderate",
+								"moderate",
 								"moderate",
 								"moderate",
 								"difficult",
 								"difficult",
-								"hardcore",
 								"hardcore"
 							];
 //choose mission difficulty and set value and is also marker colour
