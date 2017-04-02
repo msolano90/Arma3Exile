@@ -25,8 +25,8 @@ NightEndTime                 = 6;                // Time at which it is no longe
 
 //Explosive zombies          
 ExplosiveZombies             = true;             // randomly boobie trapped zombies exploding a few seconds after dying.
-ExplosiveZombiesRatio        = 2;                // percentage of explosive zombies
-ExplosiveZombieWarning       = "IT'S A TRAP !!!";// Message that will display a few seconds before the explosion of a zombie.
+ExplosiveZombiesRatio        = 5;                // percentage of explosive zombies
+ExplosiveZombieWarning       = "Here comes the...!";// Message that will display a few seconds before the explosion of a zombie.
 ExplosionDelay               = 5;                // self-explanatory
 ExplosiveType                = "Grenade" ;       // "mini_Grenade" for small almost non-lethal explision or "Grenade" Big and dangerous explosion.
 ExplosiveRespect             = 100;              // Bonus respect for Exploding zombies
@@ -34,8 +34,8 @@ ExplosiveRespect             = 100;              // Bonus respect for Exploding 
 //Killing zombies settings
 EnableMoneyOnPlayer          = false;            // Money goes directly on killer
 EnableMoneyOnCorpse          = true;             // Money stays on corpse for looting
-ZombieMoney                  = 15;                // Money per zombie kill
-ZombieMaxMoney               = 30;               // Max Money per zombie kill-random amount put on corpses
+ZombieMoney                  = 250;                // Money per zombie kill
+ZombieMaxMoney               = 1250;               // Max Money per zombie kill-random amount put on corpses
 
 EnableStatKill				 = true;			 // Enable stat tracking for Kills DB entry
 EnableZombieStatKill         = false;			 // Enable stat tracking for ZedKills DB entry
