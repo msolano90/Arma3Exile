@@ -42,9 +42,9 @@ switch (_difficultyM) do
 	case "easy":
 	{
 		_difficulty = "easy";									//AI difficulty
-		_AICount = (7 + (round (random 5)));					//AI starting numbers
+		_AICount = (5 + (round (random 5)));					//AI starting numbers
 		_AICountSnipers = (2 + (round (random 4)));				//Max 20
-		_AIMaxReinforcements = (5 + (round (random 10)));		//AI reinforcement cap
+		_AIMaxReinforcements = (5 + (round (random 5)));		//AI reinforcement cap
 		_AItrigger = (10 + (round (random 5)));					//If AI numbers fall below this number then reinforce if any left from AIMax
 		_AIwave = (4 + (round (random 2)));						//Max amount of AI in reinforcement wave
 		_AIdelay = (55 + (round (random 120)));					//The delay between reinforcements
@@ -61,9 +61,9 @@ switch (_difficultyM) do
 	case "moderate":
 	{
 		_difficulty = "moderate";
-		_AICount = (10 + (round (random 5)));
+		_AICount = (7 + (round (random 5)));
 		_AICountSnipers = (4 + (round (random 4)));				//Max 20
-		_AIMaxReinforcements = (7 + (round (random 10)));
+		_AIMaxReinforcements = (7 + (round (random 5)));
 		_AItrigger = (10 + (round (random 10)));
 		_AIwave = (5 + (round (random 3)));
 		_AIdelay = (55 + (round (random 120)));
@@ -80,9 +80,9 @@ switch (_difficultyM) do
 	case "difficult":
 	{
 		_difficulty = "difficult";
-		_AICount = (13 + (round (random 7)));
+		_AICount = (7 + (round (random 7)));
 		_AICountSnipers = (6 + (round (random 6)));				//Max 20
-		_AIMaxReinforcements = (10 + (round (random 10)));
+		_AIMaxReinforcements = (10 + (round (random 5)));
 		_AItrigger = (10 + (round (random 10)));
 		_AIwave = (6 + (round (random 3)));
 		_AIdelay = (55 + (round (random 120)));
@@ -100,9 +100,9 @@ switch (_difficultyM) do
 	default
 	{
 		_difficulty = "hardcore";
-		_AICount = (15 + (round (random 10)));
+		_AICount = (10 + (round (random 7)));
 		_AICountSnipers = (10 + (round (random 10)));			//Max 20
-		_AIMaxReinforcements = (15 + (round (random 10)));
+		_AIMaxReinforcements = (15 + (round (random 5)));
 		_AItrigger = (15 + (round (random 10)));
 		_AIwave = (6 + (round (random 4)));
 		_AIdelay = (55 + (round (random 120)));
