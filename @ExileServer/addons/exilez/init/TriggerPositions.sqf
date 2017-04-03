@@ -167,7 +167,7 @@ Cities = [
 ];
 
 NoMansLand = [
-	[2901.51,12333.8,2000]	//South East Island
+	[2901.51,12333.8,1600]	//South East Island
 
 ];
 
