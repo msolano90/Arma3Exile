@@ -81,7 +81,7 @@ class Mission
 	};
 	class Entities
 	{
-		items = 58;
+		items = 64;
 
 		class Item0
 		{
@@ -2190,6 +2190,87 @@ class Mission
 	        text = "";
 	        type = "ExileBoatTraderIcon";
 	        id = 157;
+	        atlOffset = 0;
+	    };
+		class Item58
+	    {
+	        dataType = "Marker";
+	        position[] = {8989.47, 0, 10238.1};
+	        name = "ExileMarker58";
+	        text = "Tanouka";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 148;
+	        atlOffset = 0;
+	    };
+	    class Item59
+	    {
+	        dataType = "Marker";
+	        position[] = {8989.47, 0, 10238.1};
+	        name = "ExileMarker59";
+	        text = "";
+	        type = "ExileSpawnZoneIcon";
+	        id = 149;
+	        atlOffset = 0;
+	    };
+		class Item60
+	    {
+	        dataType = "Marker";
+	        position[] = {3638.29, 0, 2171.1};
+	        name = "ExileMarker60";
+	        text = "Lailai";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 148;
+	        atlOffset = 0;
+	    };
+	    class Item61
+	    {
+	        dataType = "Marker";
+	        position[] = {3638.29, 0, 2171.1};
+	        name = "ExileMarker61";
+	        text = "";
+	        type = "ExileSpawnZoneIcon";
+	        id = 149;
+	        atlOffset = 0;
+	    };
+		class Item62
+	    {
+	        dataType = "Marker";
+	        position[] = {1804.91, 0, 11987.1};
+	        name = "ExileMarker62";
+	        text = "Tuvanaka";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 148;
+	        atlOffset = 0;
+	    };
+	    class Item63
+	    {
+	        dataType = "Marker";
+	        position[] = {1804.91, 0, 11987.1};
+	        name = "ExileMarker63";
+	        text = "";
+	        type = "ExileSpawnZoneIcon";
+	        id = 149;
 	        atlOffset = 0;
 	    };
 	};
