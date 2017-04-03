@@ -167,7 +167,7 @@ Cities = [
 ];
 
 NoMansLand = [
-	[11102.1,3765.5,2000]	//South East Island
+	[2901.51,12333.8,2000]	//South East Island
 
 ];
 
@@ -176,7 +176,7 @@ NoManLandNoB = [
 ];
 
 Mission = [
-	[12425.8,3981.31,100]	//Forest Clearing
+	[2890.63,12346.9,100]	//Comms Whiskey
 
 ];
 
