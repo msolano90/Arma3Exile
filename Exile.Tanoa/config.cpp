@@ -1347,7 +1347,7 @@ class CfgExileEnvironment
 
 		class Radiation: Radiation
 		{
-			enable = 1;
+			enable = 0;
 		};
 
 		class Temperature: Temperature
