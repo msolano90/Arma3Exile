@@ -1458,14 +1458,14 @@ class CfgExileLootSettings
  	 * This results in 30 loot positions and that is too much. So we
  	 * cap this at 10
  	 */
-	maximumNumberOfLootSpotsPerBuilding = 3;
+	maximumNumberOfLootSpotsPerBuilding = 4;
 
 	/**
 	 * Exile spawns a random number of items per loot spot. This 
 	 * is the upper cap for that. So 3 means it could spawn 1, 2 
 	 * or 3.
 	 */
-	maximumNumberOfItemsPerLootSpot = 3;
+	maximumNumberOfItemsPerLootSpot = 4;
 
 	/**
 	 * Radius in meter to spawn loot AROUND each player.
@@ -1491,7 +1491,7 @@ class CfgExileLootSettings
 	 * set this to a lower value than the maximum radius of a territory,
 	 * which is 150m by default.
 	 */
-	minimumDistanceToTerritories = 20;
+	minimumDistanceToTerritories = 1;
 };
 class CfgExileMobileXM8
 {
