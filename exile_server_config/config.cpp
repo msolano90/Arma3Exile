@@ -11088,7 +11088,6 @@ class CfgSettings
 			"ItemMap", // Because why not
 			"Exile_Item_XM8",
 			"ItemRadio",
-			"Exile_Item_PlasticBottleFreshWater",
 			"Land_DuctTape_F",
 			"arifle_AK12_F",
 			"30Rnd_762x39_Mag_F",
@@ -11144,8 +11143,11 @@ class CfgSettings
 		 */
 		spawnZoneVehicles[] =
 		{
-			{5, "Exile_Bike_OldBike"},
-			{5, "Exile_Bike_MountainBike"}
+            {2, "Exile_Car_ProwlerUnarmed"},
+            {2, "Exile_Car_QilinUnarmed"},
+            {3, "Exile_Car_SUV_Black"},
+            {2, "Exile_Car_Strider"},
+			{2, "Exile_Car_Hunter"}
 		};
 	};
 
@@ -11177,9 +11179,9 @@ class VehicleSpawn
         * serverstart will take long time 
         * 70 Vehicles ~ 3 minutes
         */
-        groundVehicleAmount = 80; //"0"=Disabled
+        groundVehicleAmount = 60; //"0"=Disabled
         waterVehicleAmount = 0; //"0"=Disabled
-        airVehicleAmount = 50; //"0"=Disabled
+        airVehicleAmount = 30; //"0"=Disabled
         /**
         * Creates global markers for vehicle spawn tweeking,
         * after you are satisfied with vehicle ammount and spread set this to 0.
