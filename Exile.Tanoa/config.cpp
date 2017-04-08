@@ -2315,15 +2315,15 @@ class CfgTerritories
 	{
 		// Purchase Price 		Radius 		Number of Objects
 		{5000,					15,			30 					}, // Level 1
-		{10000,					30,			60 					}, // Level 2 
-		{15000,					45,			90 					}, // Level 3
-		{20000,					60,			120					}, // Level 4
-		{25000,					75,			150					}, // Level 5
-		{30000,					90,			180					}, // Level 6
-		{35000,					105,		210					}, // Level 7
-		{40000,					120,		240					}, // Level 8
-		{45000,					135,		270					}, // Level 9
-		{50000,					150,		300					}  // Level 10
+		{7500,					130,			300 					}, // Level 2 
+		{7500,					145,			500 					}, // Level 3
+		{7500,					160,			600					}, // Level 4
+		{7500,					175,			750					}, // Level 5
+		{7500,					190,			900					}, // Level 6
+		{7500,					1105,		1000					}, // Level 7
+		{7500,					1120,		1150					}, // Level 8
+		{7500,					1135,		1250					}, // Level 9
+		{75000,					1500,		1500					}  // Level 10
 	};
 
 	// A shortcut of the above maximum radius
@@ -2333,19 +2333,19 @@ class CfgTerritories
 	minimumDistanceToOtherTerritories = 200; 
 
 	// Maximum number of territories a player can own
-	maximumNumberOfTerritoriesPerPlayer = 2;
+	maximumNumberOfTerritoriesPerPlayer = 1;
 
 	/**
 	 * Defines the minimum distance to safe zones / trader cities where players
 	 * cannot build territories
 	 */
-	minimumDistanceToTraderZones = 500;
+	minimumDistanceToTraderZones = 50;
 
 	/**
 	 * Defines the minimum distance to spawn zones where players
 	 * cannot build territories
 	 */
-	minimumDistanceToSpawnZones = 100;
+	minimumDistanceToSpawnZones = 10;
 
 	// Amount of pop tabs per object to pay
 	popTabAmountPerObject = 1;
