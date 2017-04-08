@@ -1573,6 +1573,14 @@ class CfgInteractionMenus
 				condition = "((locked ExileClientInteractionObject) isEqualTo 2) && ((locked ExileClientInteractionObject) != 1)";
 				action = "false spawn ExileClient_object_lock_toggle";
 			};
+			
+			// Claims a Vehicle
+			class ClaimVehicle: ExileAbstractAction
+			{
+   				title = "Claim Ownership";
+    				condition = "true";
+    				action = "call ExileClient_ClaimVehicles_network_claimRequestSend";
+			};
 
 			// Repairs a vehicle to 100%. Requires Duckttape
 			class Repair: ExileAbstractAction
@@ -1645,6 +1653,14 @@ class CfgInteractionMenus
 				title = "Unlock";
 				condition = "((locked ExileClientInteractionObject) isEqualTo 2) && ((locked ExileClientInteractionObject) != 1)";
 				action = "false spawn ExileClient_object_lock_toggle";
+			};
+			
+			// Claims a Vehicle
+			class ClaimVehicle: ExileAbstractAction
+			{
+   				title = "Claim Ownership";
+    				condition = "true";
+    				action = "call ExileClient_ClaimVehicles_network_claimRequestSend";
 			};
 
 			// Hot-wires a vehicle
@@ -1948,6 +1964,14 @@ class CfgInteractionMenus
 				title = "Unlock";
 				condition = "((locked ExileClientInteractionObject) isEqualTo 2) && ((locked ExileClientInteractionObject) != 1)";
 				action = "false spawn ExileClient_object_lock_toggle";
+			};
+			
+			// Claims a Vehicle
+			class ClaimVehicle: ExileAbstractAction
+			{
+   				title = "Claim Ownership";
+    				condition = "true";
+    				action = "call ExileClient_ClaimVehicles_network_claimRequestSend";
 			};
 
 			// Hot-wires a vehicle
