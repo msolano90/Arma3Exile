@@ -1,4 +1,4 @@
-﻿/**
+/**
  * config
  *
  * Exile Mod
@@ -5101,7 +5101,7 @@ class CfgSettings
 	class CBA 
 	{
 		// Set this to 1 if you want to have CBA support
-		useStackedEH = 0;
+		useStackedEH = 1;
 
 		// If you set this to 1 ...........................................
 		iReallyWantToGetHackedAndImRetarded = 0;
@@ -5222,9 +5222,9 @@ class CfgSettings
 			unlucky = 1; // Dying for an unknown reason costs you 1% respect
 			crash = 1; // Crashing your car costs you 1% respect
 			suicide = 1; // Comitting suicide costs you 2% of your respect
-			friendyFire = 0; // Friendly fire costs you 3% 
-			npc = 2; // Being killed by an NPC costs you 4%
-			bambiKill = 2; // Killing a bambi costs you 5%
+			friendyFire = 1; // Friendly fire costs you 3% 
+			npc = 1; // Being killed by an NPC costs you 4%
+			bambiKill = 1; // Killing a bambi costs you 5%
 			frag = 5; // Killing someone will get you 5% and remove 5% from the victim
 		};
 
@@ -5293,9 +5293,8 @@ class CfgSettings
 			"ItemMap", // Because why not
 			"Exile_Item_XM8",
 			"ItemRadio",
-			"Exile_Item_PlasticBottleFreshWater",
-			"Land_DuctTape_F",
-			"arifle_AK12_F",
+			"Exile_Item_DuctTape",
+			"arifle_AK12_GL_F",
 			"30Rnd_762x39_Mag_F",
 			"30Rnd_762x39_Mag_F"
 		};
@@ -5347,11 +5346,14 @@ class CfgSettings
 		 *
 		 * {Number of vehicles *per* spawn zone, vehicle class name}
 		 */
-		spawnZoneVehicles[] =
-		{
-			{5, "Exile_Bike_OldBike"},
-			{5, "Exile_Bike_MountainBike"}
-		};
+        spawnZoneVehicles[] =
+        {
+            {2, "Exile_Car_ProwlerUnarmed"},
+            {2, "Exile_Car_QilinUnarmed"},
+            {3, "Exile_Car_SUV_Black"},
+            {2, "Exile_Car_Strider"},
+			{2, "Exile_Car_Hunter"}
+        };
 	};
 
 	///////////////////////////////////////////////////////////////////////
@@ -5382,9 +5384,9 @@ class VehicleSpawn
         * serverstart will take long time 
         * 70 Vehicles ~ 3 minutes
         */
-        groundVehicleAmount = 80; //"0"=Disabled
+        groundVehicleAmount = 60; //"0"=Disabled
         waterVehicleAmount = 0; //"0"=Disabled
-        airVehicleAmount = 50; //"0"=Disabled
+        airVehicleAmount = 30; //"0"=Disabled
         /**
         * Creates global markers for vehicle spawn tweeking,
         * after you are satisfied with vehicle ammount and spread set this to 0.

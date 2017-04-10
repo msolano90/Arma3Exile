@@ -465,7 +465,8 @@ class Tools
 		"Exile_Item_Screwdriver",
 		"ItemRadio",
 		"ItemWatch",
-		"Exile_Item_XM8"
+		"Exile_Item_XM8",
+		"Exile_Item_Knife"
 	};
 };
 
