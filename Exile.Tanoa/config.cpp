@@ -70,6 +70,7 @@ class Exile_AbstractCraftingRecipe
 
 class CfgCraftingRecipes
 {
+	#include "EBM\recipes.hpp"
 	
 class BreachingChargeBigMomma: Exile_AbstractCraftingRecipe
 {
@@ -1194,6 +1195,8 @@ class CfgExileCustomCode
 {
 	ExileClient_gui_xm8_slide = "ExAdClient\XM8\CustomCode\ExileClient_gui_xm8_slide.sqf";
 	ExileClient_gui_xm8_show = "ExAdClient\XM8\CustomCode\ExileClient_gui_xm8_show.sqf";
+	exileclient_system_lootmanager_thread_spawn = "EBM\exileclient_system_lootmanager_thread_spawn.sqf";
+	exileServer_object_construction_database_load = "EBM\exileServer_object_construction_database_load.sqf";
 	ExileClient_object_player_death_startBleedingOut = "custom\EnigmaRevive\ExileClient_object_player_death_startBleedingOut.sqf"; //Happys Revive
 	ExileClient_object_player_event_onInventoryOpened = "custom\EnigmaRevive\ExileClient_object_player_event_onInventoryOpened.sqf"; //Happys Revive AntiDupe ---NEW with v0.65
 	/*
@@ -1544,6 +1547,8 @@ class ExileAbstractAction
  */
 class CfgInteractionMenus
 {
+	#include "EBM\menus.hpp"
+	
 	class Car 
 	{
 		targetType = 2;
